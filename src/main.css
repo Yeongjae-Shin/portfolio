@@ -108,6 +108,7 @@ ul {
 ul > li {
   position: relative;
   padding: 0.2rem 0 0.2rem 1rem;
+  line-height: 1.5;
 }
 
 ul > li:before {

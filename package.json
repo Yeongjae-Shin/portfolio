@@ -12,7 +12,7 @@
     "start": "parcel src/index.html",
     "build": "rm -rf docs; parcel build -d docs --public-url /resume src/index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
